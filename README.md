@@ -32,6 +32,3 @@ Property | Argument | Description
 `.unload` | `<extension>` | Command to unload an extension.
 `.reload` | `<extension>` | Command to reload an extension.
 `.ping` | None | Command to test the bot latency.
-
-## To-Do List
-  - Add json library for messages.

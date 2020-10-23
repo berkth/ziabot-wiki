@@ -4,7 +4,7 @@
 <br>
 Discord bot designed to add multiple functionalities for the server MyZia.
 
-# User Commands
+## User Commands
 
 Command | Description
 --- | :--
@@ -14,7 +14,7 @@ Command | Description
 `.reddit` | Command to get the link for the reddit page.
 `.help` | Command to display all available commands for the user.
 
-# Staff Commands
+## Staff Commands
 
 Command | Description
 --- | :--
@@ -22,7 +22,7 @@ Command | Description
 `.reapply` | Command to notify the user that the application hasn't been accepted.
 `.whitelist` | Command to get info on how to add a new player to the whitelist.
 
-# Bot Commands
+## Bot Commands
 
 Property | Argument | Description
 --- | --- | :--
@@ -33,5 +33,5 @@ Property | Argument | Description
 `.reload` | `<extension>` | Command to reload an extension.
 `.ping` | None | Command to test the bot latency.
 
-# To-Do List
+## To-Do List
   - Add json library for messages.

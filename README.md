@@ -8,27 +8,27 @@ Discord bot designed to add multiple functionalities for the server MyZia.
 
 Command | Description
 --- | :--
-`.apply` | Command to apply for the server.
-`.invite` | Command to get the invite link for the discord server.
-`.pmc` | Command to get the link for the Planet Minecraft page.
-`.reddit` | Command to get the link for the reddit page.
-`.help` | Command to display all available commands for the user.
+`.apply` | Apply for the server.
+`.invite` | Get the invite link for the discord server.
+`.pmc` | Get the link for the Planet Minecraft page.
+`.reddit` | Get the link for the reddit page.
+`.help` | Display all available commands for the user.
 
 ## Staff Commands
-
-Command | Description
---- | :--
-`.whitelisted` | Command to notify the user that the application has been accepted.
-`.reapply` | Command to notify the user that the application hasn't been accepted.
-`.whitelist` | Command to get info on how to add a new player to the whitelist.
+Command | Argument | Description
+--- | --- | :--
+`.whitelisted` | `<@user>` | Notify the user that the application has been accepted.
+`.reapply` | `<@user>` | Notify the user that the application hasn't been accepted.
+`.whitelist` | `<@user>` | Get info on how to add a new player to the whitelist.
+`.say` | `<#channel> <message>` | Send a custom message in a specific channel by the bot.
 
 ## Bot Commands
 
-Property | Argument | Description
+Command | Argument | Description
 --- | --- | :--
-`.restart` | None | Command to restart the bot.
-`.shutdown` | None | Command to shutdown the bot.
-`.load` | `<extension>` | Command to load an extension.
-`.unload` | `<extension>` | Command to unload an extension.
-`.reload` | `<extension>` | Command to reload an extension.
-`.ping` | None | Command to test the bot latency.
+`.restart` | None | Restart the bot.
+`.shutdown` | None | Shutdown the bot.
+`.load` | `<extension>` | Load an extension.
+`.unload` | `<extension>` | Unload an extension.
+`.reload` | `<extension>` | Reload an extension.
+`.ping` | None | Test the bot latency.

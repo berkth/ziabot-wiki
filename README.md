@@ -8,27 +8,27 @@ Discord bot designed to add multiple functionalities for the server MyZia.
 
 Command | Description
 --- | :--
-`.apply` | Apply for the server.
-`.invite` | Get the invite link for the discord server.
-`.pmc` | Get the link for the Planet Minecraft page.
-`.reddit` | Get the link for the reddit page.
-`.help` | Display all available commands for the user.
+`!apply` | Apply for the server.
+`!invite` | Get the invite link for the discord server.
+`!pmc` | Get the link for the Planet Minecraft page.
+`!reddit` | Get the link for the reddit page.
+`!help` | Display all available commands for the user.
 
 ## Staff Commands
 Command | Argument | Description
 --- | --- | :--
-`.whitelisted` | `<@user>` | Notify the user that the application has been accepted.
-`.reapply` | `<@user>` | Notify the user that the application hasn't been accepted.
-`.whitelist` | `<@user>` | Get info on how to add a new player to the whitelist.
-`.say` | `<#channel> <message>` | Send a custom message in a specific channel by the bot.
+`!whitelisted` | `<@user>` | Notify the user that the application has been accepted.
+`!reapply` | `<@user>` | Notify the user that the application hasn't been accepted.
+`!whitelist` | `<@user>` | Get info on how to add a new player to the whitelist.
+`!say` | `<#channel> <message>` | Send a custom message in a specific channel by the bot.
 
 ## Bot Commands
 
 Command | Argument | Description
 --- | --- | :--
-`.restart` | None | Restart the bot.
-`.shutdown` | None | Shutdown the bot.
-`.load` | `<extension>` | Load an extension.
-`.unload` | `<extension>` | Unload an extension.
-`.reload` | `<extension>` | Reload an extension.
-`.ping` | None | Test the bot latency.
+`!restart` | None | Restart the bot.
+`!shutdown` | None | Shutdown the bot.
+`!load` | `<extension>` | Load an extension.
+`!unload` | `<extension>` | Unload an extension.
+`!reload` | `<extension>` | Reload an extension.
+`!ping` | None | Test the bot latency.
